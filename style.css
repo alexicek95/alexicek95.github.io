@@ -71,7 +71,7 @@ h2 {
     }
 
     #smartphone {
-        display: none;
+        display: block;
     }
 }
 
@@ -81,7 +81,7 @@ h2 {
     }
 
     #tablet {
-        display: none;
+        display: block;
     }
 }
 
@@ -91,7 +91,7 @@ h2 {
     }
 
     #normal {
-        display: none;
+        display: block;
     }
 }
 
@@ -101,7 +101,7 @@ h2 {
     }
 
     #widescreen {
-        display: none;
+        display: block;
     }
 }
 
@@ -111,6 +111,6 @@ h2 {
     }
 
     #landscape {
-        display: none;
+        display: block;
     }
 }
