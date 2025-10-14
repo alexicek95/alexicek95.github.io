@@ -30,6 +30,17 @@ h2 {
     color: rgb(0, 0, 0);
     font-size: larger;
 }
+
+
+.big {
+    font-size: 3rem;
+    font-weight: bold;
+    display: none;
+    text-transform: capitalize;
+
+}
+
+
 #navbar a {
     color: white;
     text-decoration: none;
@@ -52,4 +63,54 @@ h2 {
 #navbar ul li a:hover {
     background-color: #000000;
     border-radius: 5px;
+}
+
+@media(max-width:500px) {
+    body {
+        background-color: red;
+    }
+
+    #smartphone {
+        display: none;
+    }
+}
+
+@media(min-width: 501px) and (max-width:768px) {
+    body {
+        background-color: green;
+    }
+
+    #tablet {
+        display: none;
+    }
+}
+
+@media(min-width: 769px) and (max-width:1200px) {
+    body {
+        background-color: cyan;
+    }
+
+    #normal {
+        display: none;
+    }
+}
+
+@media(min-width: 1201px) {
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+
+    #widescreen {
+        display: none;
+    }
+}
+
+@media(max-height: 500px) {
+    body {
+        background-color: orange;
+    }
+
+    #landscape {
+        display: none;
+    }
 }
