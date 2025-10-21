@@ -1,0 +1,159 @@
+
+h2 {
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.ahoj {
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(23, 25, 141);
+    box-shadow: 10px 10px 5px rgb(1, 14, 84);
+    border-radius: 15px;
+    margin: 20px auto;
+    padding: 5px 30px;
+    font-size: large;
+    font-style : italic;
+}
+
+.container {
+    background-color: rgb(7, 9, 148);
+    box-shadow: 10px 10px 5px rgb(13, 2, 86);
+    max-width: 800px;
+    max-height: 2500px;
+    border-radius: 15px;
+    margin: 100px auto;
+    padding: 5px 30px;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+}
+
+.link {
+    text-align: center;
+    margin: 20px auto;
+}
+
+
+.big {
+    font-size: 3rem;
+    font-weight: bold;
+    display: none;
+    text-transform: capitalize;
+
+}
+
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#navbar ul li a {
+    padding: 10px;
+    margin: 0 4px;
+}
+
+#navbar ul li a:hover {
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+@media(max-width:500px) {
+    body {
+        background-color: red;
+    }
+    .container {
+        background-color: rgb(118, 4, 4);
+        box-shadow: 10px 10px 5px rgb(84, 1, 1);
+    }
+    .ahoj {
+        background-color: rgb(141, 23, 23);
+        box-shadow: 10px 10px 5px rgb(84, 1, 1);
+    }
+
+    #smartphone {
+        display: block;
+    }
+}
+
+@media(min-width: 501px) and (max-width:768px) {
+    body {
+        background-color: rgb(0, 255, 0);
+    }
+
+    .container {
+        background-color:rgb(5, 107, 5);
+        box-shadow: 10px 10px 5px rgb(3, 59, 9); 
+    }
+    .ahoj {
+        background-color: rgb(5, 107, 5);
+        box-shadow: 10px 10px 5px rgb(3, 59, 9);
+    }
+    #tablet {
+        display: block;
+    }
+}
+
+@media(min-width: 769px) and (max-width:1200px) {
+    body {
+        background-color: cyan;
+    }
+    .container {
+        background-color: rgb(5, 107, 107);
+        box-shadow: 10px 10px 5px rgb(3, 59, 59);
+    }
+    .ahoj {
+        background-color: rgb(5, 107, 107);
+        box-shadow: 10px 10px 5px rgb(3, 59, 59);
+    }
+
+    #normal {
+        display: block;
+    }
+}
+
+@media(min-width: 1201px) {
+    body {
+        background-color: rgb(1, 5, 248);
+    }
+    .container {
+        background-color: rgb(7, 9, 148);
+        box-shadow: 10px 10px 5px rgb(13, 2, 86);
+    }
+    .ahoj {
+        background-color: rgb(23, 25, 141);
+        box-shadow: 10px 10px 5px rgb(1, 14, 84);
+    }
+
+    #widescreen {
+        display: block;
+    }
+}
+
+@media(max-height: 500px) {
+    body {
+        background-color: orange;
+    }
+    .container {
+        background-color: rgb(148, 107, 5);
+        box-shadow: 10px 10px 5px rgb(86, 59, 3);
+    }
+    .ahoj {
+        background-color: rgb(141, 107, 5);
+        box-shadow: 10px 10px 5px rgb(84, 59, 3);
+    }
+
+    #landscape {
+        display: block;
+    }
+}
