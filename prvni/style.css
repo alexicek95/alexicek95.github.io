@@ -8,7 +8,7 @@ h2 {
     color: white;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(23, 25, 141);
+    background-color: rgb(19, 21, 153);
     box-shadow: 10px 10px 5px rgb(1, 14, 84);
     border-radius: 15px;
     margin: 20px auto;
@@ -18,7 +18,7 @@ h2 {
 }
 
 .container {
-    background-color: rgb(7, 9, 148);
+    background-color: rgb(19, 21, 153);
     box-shadow: 10px 10px 5px rgb(13, 2, 86);
     max-width: 800px;
     max-height: 2500px;
@@ -127,7 +127,7 @@ h2 {
         background-color: rgb(1, 5, 248);
     }
     .container {
-        background-color: rgb(7, 9, 148);
+        background-color: rgb(16, 17, 107);
         box-shadow: 10px 10px 5px rgb(13, 2, 86);
     }
     .ahoj {
