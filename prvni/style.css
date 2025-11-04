@@ -74,11 +74,11 @@ h2 {
     }
     .container {
         background-color: rgb(118, 4, 4);
-        box-shadow: 10px 10px 5px rgb(84, 1, 1);
+        box-shadow: 10px 10px 5px rgba(84, 1, 1, 0.615);
     }
     .ahoj {
         background-color: rgb(141, 23, 23);
-        box-shadow: 10px 10px 5px rgb(84, 1, 1);
+        box-shadow: 10px 10px 5px rgba(84, 1, 1, 0.615);
     }
 
     #smartphone {
@@ -128,11 +128,11 @@ h2 {
     }
     .container {
         background-color: rgb(93, 94, 163);
-        box-shadow: 10px 10px 5px rgb(13, 2, 86);
+        box-shadow: 10px 10px 5px rgba(1, 13, 84, 0.489);
     }
     .ahoj {
         background-color: rgb(93, 94, 163);
-        box-shadow: 10px 10px 5px rgb(1, 14, 84);
+        box-shadow: 10px 10px 5px rgba(1, 13, 84, 0.489);
     }
 
     #widescreen {
